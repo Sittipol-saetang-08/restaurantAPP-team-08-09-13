@@ -61,7 +61,8 @@ namespace restaurantAPP_team_08_09_13
         // คน A รับผิดชอบ
         static void AddRestaurant()
         {
-            Console.WriteLine("Not completed");
+            Console.WriteLine("Enter Name");
+         
         }
 
         // คน B รับผิดชอบ
