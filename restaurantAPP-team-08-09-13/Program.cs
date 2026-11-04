@@ -67,7 +67,7 @@ namespace restaurantAPP_team_08_09_13
         // คน B รับผิดชอบ
         static void ShowGoodRating()
         {
-            Console.WriteLine("Not completed");
+            Console.WriteLine("Enter");
         }
 
         // คน C รับผิดชอบ
