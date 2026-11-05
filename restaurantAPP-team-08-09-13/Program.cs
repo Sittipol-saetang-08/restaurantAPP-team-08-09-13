@@ -61,12 +61,15 @@ namespace restaurantAPP_team_08_09_13
         // คน A รับผิดชอบ
         static void AddRestaurant()
         {
-            Console.WriteLine("Enter Name");
-         
+            foreach (Restaurant r in restaurants)
+            {
+                Console.WriteLine($"Name: {r.Name}, Type: {r.Type}, Rating: {r.Rating}");
+            }
         }
 
-        // คน B รับผิดชอบ
-        static void ShowGoodRating()
+           
+            // คน B รับผิดชอบ
+            static void ShowGoodRating()
         {
             Console.WriteLine("Not completed");
         }
